@@ -1,0 +1,25 @@
+1. Go to any location and create a directory with the name of your project.
+
+2. Navigate inside the directory
+
+3. Run "pipenv install django". - installing django using pipenv inside a virtual environment.
+* After running the above command, a virtual environment for the project is going to be created and you will be given a path that leads to that virtual environment.
+* also two files are going to be created; "pipfile" and "pipfile.lock".use "code ." to open in vscode.
+
+4. we now need to activate the virtual environment so that we can use the python interpreter inside the virtual environment and not the one installed globally.
+Run "pipenv shell"
+
+5. Run django admin to checkout more options.
+
+6.use django-admin to start a new project
+
+7.Run django-admin startproject <nameofproject>
+after running the above command,you get two folders,one for the project and one for the core of the application.
+To avoid the redundancy,use " ." at the end of the command.This tells django to use the CMD created folder as the project directory.
+
+8.After the above commands,"manage.py" file is going to be created.From there,you can use the file instead of using django-admin.
+Try running the server using django admin to proof the point above.
+
+9. use python manage.py to check the django admin like commands.
+
+10. use python manage.py runserver to start the server. default port is 8000 but can use any other.Eg:python manage.py runserver 9000
