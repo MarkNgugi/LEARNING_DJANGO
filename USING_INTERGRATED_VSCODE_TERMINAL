@@ -1,0 +1,11 @@
+1. On the view panel,select command palette and search "python interpreter"
+
+2. To add the virtual path,use the command "pipenv --venv"
+
+3. Copy the path and paste it and append "/bin/python" at the end of the pasted path.
+NOTE:in windows use a forward slash
+
+4.On the view menu select terminal and now you can run you commands there.Eg "runserver"
+You can hide and unhide the terminal window using "ctrl+`"
+
+5.Incase you get errors of invalid syntax on your terminal,you can just open another terminal within VS code and continue with your commands.
