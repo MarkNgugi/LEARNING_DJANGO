@@ -1,0 +1,11 @@
+1. First install python
+2. install Dependencies that allow you to create isolated environments for your projects (virtualenv or pipenv)
+
+      pip3 install pipenv
+      sudo apt install virtualenv
+
+3. In VScode,ensure python extensiton is installed.
+
+
+
+
