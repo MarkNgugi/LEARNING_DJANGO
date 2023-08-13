@@ -1,1 +1,3 @@
+1. use the startapp command to start an app
 
+2. After starting the app,add it to the installed apps list in the settings.py by just typing the name of the app.
